@@ -1,0 +1,35 @@
+h1{
+    color: white;
+}
+
+body{
+    background: rgb(147, 219, 236);
+    text-align: center;
+}
+
+div#menu{
+    text-align: right;
+}
+
+div#msg{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+}
+
+div#img{
+    margin-top: 30px;
+}
+
+section{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 400px;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.685);
+}
+
+footer{
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
