@@ -5,7 +5,7 @@ function verificar(){
     var res = window.document.querySelector('div#res')
     var img = document.createElement('img')
     img.setAttribute('id', 'foto')
-    if(fano.value.length == 0 || Number(fano.value) > ano){
+    if(fano.value.length  == 0 || Number(fano.value) > ano){
     window.alert('[ERRO] Verifique os dados e tente novamente!')  
     }else{
       var fsex = window.document.getElementsByName('radsex')
