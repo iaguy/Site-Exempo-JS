@@ -22,7 +22,7 @@ a{
     transition: 0.5s;
 }
 a:hover{
-    text-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 10px rgb(255, 255, 255);
 }
 
 p#link{
