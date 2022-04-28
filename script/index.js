@@ -34,7 +34,6 @@ function verificar(){
             img.setAttribute('src', 'style/idoso-f.png')
         }
       }
-      res.style.textAlign = 'center'
       res.innerHTML = `Detectei <strong>${gen}</strong> com <strong>${idade}</strong> anos.`
       res.appendChild(img)
       

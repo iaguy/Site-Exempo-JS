@@ -13,23 +13,26 @@
     <title>ExJS</title>
 </head>
 <body onload="carregar()">
-            <section>
-                <div>
-                  <p>Ano de Nascimento</p>
-                    <input type="number" name="nasc" id="nasc" min="0">
-                      <p>Sexo</p>
-                        <input type="radio" name="radsex" id="masc" checked>
-                          <label for="masc">Masculino</label>
-                            <input type="radio" name="radsex" id="fem" >
-                              <label for="fem">Feminino</label>
-                                <p><input type="button" value="verificar" onclick="verificar()">
-                                  </div>
-                  <div id="res">
-                      Preencha os dados acima para ver o resultado!
-                        </div>
-            </section>
-                <footer>
-                    <p>&copy; Criado por <a href="https://github.com/iaguy" target="_blank">Bruno Iaguy</a></p>
-                      </footer>
+  <section>
+    <div>
+      <p>Ano de Nascimento</p>
+        <input type="number" name="nasc" id="nasc" min="0">
+          <p>Sexo:
+            <input type="radio" name="radsex" id="masc" checked>
+            <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem" >
+                <label for="fem">Feminino</label>
+                  <p><input type="button" value="verificar" onclick="verificar()"></p>
+      </div>
+        <div id="res">
+          Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+  </footer>
+  <p id="link">&copy; Criado por <a href="https://github.com/iaguy" target="_blank">Bruno Iaguy</a></p>
+  <p id="link"><a href="page01.html" target="_self">Calculo de Idade</a> |
+  <a href="page02.html" target="_self">Contador</a> |
+  <a href="index.html" target="_self">Relogio</a>
+ </footer>
 </body>
 </html>
